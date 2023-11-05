@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather Framework</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+   </head>
+  
+  <body>
+    <div class="contianer">
+    <div class="row">
+    <div class="col-6">
+  <form id="search">
+        <label for="Enter Your City">Enter Your City</label>
+        <input type="text" id="city-input" placeholder="Type a city..">
+        <button type="button" class="btn btn-primary">Submit</button>
+      </form>
+</div>
+<div class="col-6">
+  <button></button>
+</div>
+    </div>
+      <h1 class="city">Pretoria</h1>
+      <h2 class="date">Wednesday, 22 September 2023 | 11:26</h2> 
+      <h2 id="description">windy</h2>
+      <div class="row">
+    <div class="col-4">
+      <h2>☀️</h2>
+        </div> 
+        <div class="col-4">
+    <h2 id="degrees">19°C </h2>
+    </div>
+    <div class="col-4">
+    <ul>
+      <li>Humidity: <div id="humidity">%</div></li>
+      <li>Wind: <div id="wind">K/h</div></li>
+      </div>
+      </ul>
+      </div>
+
+
+      
+    <ul>
+      <div class="row">
+        <div class="col">
+    <li>
+      Mon 5
+      <br/>
+      🌤️
+      <br/>
+      19°C
+    </li>
+    </div>
+    <div class="col">
+    <li>
+      Tue 6
+      <br/>
+      🌥️
+      <br/>
+      18°C
+    </li>
+    </div>
+    <div class="col">
+    <li>
+      Wed 7
+      <br/>
+      ⛈️
+      <br/>
+      12°C
+    </li>
+    </div>
+    <div class="col">
+    <li>
+      Thur 8
+      <br/>
+      ☀️
+      <br/>
+      19°C
+    </li>
+    </div>
+    <div class="col">
+    <li>
+      Fri 9
+      <br/>
+      ☁️
+      <br/>
+      17°C
+    </li>
+    </div>
+      </div>
+  </ul>
+
+    </div>
+  </body>
+  
+    <script src="src/index.js">
+  </script>
+  
+</html>
